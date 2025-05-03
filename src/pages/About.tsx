@@ -39,20 +39,21 @@ const About = () => {
       
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="container mx-auto px-4 md:px-10 py-16">
+        <section className="container mx-auto px-4 md:px-6 lg:px-8 py-16">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-medium leading-tight mb-6">
               Accessible excellence:<br />
               Perfect tech for everyone!
             </h1>
             <p className="text-gray-600 mb-6">
-              With over two decades of expertise, we've meticulously crafted collections that optimize enduring quality and technological innovation, catering to the diverse needs of our clients.
+              With over two decades of expertise, we've meticulously crafted collections that optimize 
+              enduring quality and technological innovation, catering to the diverse needs of our clients.
             </p>
           </div>
           
           <div className="mt-10">
             <img 
-              src="/lovable-uploads/34e031b4-176b-49d9-a3b3-b748b09f09aa.png" 
+              src="/lovable-uploads/17a65f39-ab79-44fd-9836-84ee99c29d66.png" 
               alt="Tech products on a desk" 
               className="w-full max-w-3xl rounded-lg"
             />
@@ -61,9 +62,9 @@ const About = () => {
         
         {/* Shipping Features */}
         <section className="py-10 border-t border-gray-100">
-          <div className="container mx-auto px-4 md:px-10">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="flex items-start">
+              <div className="flex items-center">
                 <ShippingIcon />
                 <div className="ml-4">
                   <h3 className="font-medium">Free Shipping</h3>
@@ -71,7 +72,7 @@ const About = () => {
                 </div>
               </div>
               
-              <div className="flex items-start">
+              <div className="flex items-center">
                 <PaymentIcon />
                 <div className="ml-4">
                   <h3 className="font-medium">Secure Payments</h3>
@@ -79,7 +80,7 @@ const About = () => {
                 </div>
               </div>
               
-              <div className="flex items-start">
+              <div className="flex items-center">
                 <ReturnIcon />
                 <div className="ml-4">
                   <h3 className="font-medium">45 Days Free Return</h3>
@@ -91,14 +92,14 @@ const About = () => {
         </section>
         
         {/* Feature Sections */}
-        <section className="container mx-auto px-4 md:px-10 py-16">
+        <section className="container mx-auto px-4 md:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Exclusive Range */}
             <div>
-              <div className="bg-gray-100 rounded-lg h-48 mb-4 overflow-hidden">
+              <div className="bg-gray-100 rounded-lg h-64 mb-4 overflow-hidden">
                 <img 
                   src="/lovable-uploads/3698d58c-6b80-4c3d-a316-52a77b6051b3.png" 
-                  alt="Workplace with computer and accessories" 
+                  alt="Desk setup with computer" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -110,10 +111,10 @@ const About = () => {
             
             {/* Enduring Innovation */}
             <div>
-              <div className="bg-gray-100 rounded-lg h-48 mb-4 overflow-hidden">
+              <div className="bg-gray-100 rounded-lg h-64 mb-4 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/0a67f8d3-ab6e-422e-8e47-3a21fcd7c729.png" 
-                  alt="Laptop with phone and plants" 
+                  src="/lovable-uploads/78e1b3ea-d2f4-4895-83f5-7bc6612d83ec.png" 
+                  alt="Laptop with accessories" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -125,10 +126,10 @@ const About = () => {
             
             {/* Ethical Sourcing */}
             <div>
-              <div className="bg-gray-100 rounded-lg h-48 mb-4 overflow-hidden">
+              <div className="bg-gray-100 rounded-lg h-64 mb-4 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/78e1b3ea-d2f4-4895-83f5-7bc6612d83ec.png" 
-                  alt="Phone with coffee on desk" 
+                  src="/lovable-uploads/0a67f8d3-ab6e-422e-8e47-3a21fcd7c729.png" 
+                  alt="Phone with coffee" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -141,11 +142,11 @@ const About = () => {
         </section>
         
         {/* Premium Tech */}
-        <section className="container mx-auto px-4 md:px-10 py-16">
+        <section className="container mx-auto px-4 md:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/lovable-uploads/78e1b3ea-d2f4-4895-83f5-7bc6612d83ec.png" 
+                src="/lovable-uploads/34e031b4-176b-49d9-a3b3-b748b09f09aa.png" 
                 alt="Laptop setup" 
                 className="rounded-lg w-full"
               />
@@ -157,7 +158,7 @@ const About = () => {
                 Our pursuit of excellence involves extensive exploration of top-tier factories globally, ensuring our tech lineup upholds standards upheld by renowned brands. We forge strong partnerships with these facilities, prioritizing factors like sustainability and ethical production practices.
               </p>
               
-              <Link to="/products">
+              <Link to="/shop">
                 <Button variant="outline" className="rounded-full">
                   Check our store
                 </Button>
@@ -167,7 +168,7 @@ const About = () => {
         </section>
         
         {/* Timeless Tech Solutions */}
-        <section className="container mx-auto px-4 md:px-10 py-16">
+        <section className="container mx-auto px-4 md:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <h2 className="text-2xl font-medium mb-6">Timeless Tech Solutions</h2>
@@ -184,7 +185,7 @@ const About = () => {
             
             <div className="order-1 md:order-2">
               <img 
-                src="/lovable-uploads/0a67f8d3-ab6e-422e-8e47-3a21fcd7c729.png" 
+                src="/lovable-uploads/78e1b3ea-d2f4-4895-83f5-7bc6612d83ec.png" 
                 alt="Modern workspace" 
                 className="rounded-lg w-full"
               />
@@ -193,7 +194,27 @@ const About = () => {
         </section>
         
         {/* Newsletter */}
-        <NewsletterForm />
+        <section className="bg-gray-50 py-16">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8 text-center">
+            <h2 className="text-2xl font-medium mb-4">Subscribe to our email newsletter and get 15% off</h2>
+            <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+              Be the first to know about the latest in tech trends, exclusive offers, and exciting product launches by subscribing to our newsletter.
+            </p>
+            
+            <div className="max-w-md mx-auto">
+              <form className="flex flex-col sm:flex-row gap-3">
+                <input 
+                  type="email" 
+                  placeholder="Your email address" 
+                  className="flex-1 px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-200"
+                />
+                <Button type="submit" className="bg-black hover:bg-gray-800 text-white rounded-full">
+                  Subscribe
+                </Button>
+              </form>
+            </div>
+          </div>
+        </section>
       </main>
       
       <Footer />
