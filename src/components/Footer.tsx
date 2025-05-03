@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <img src="/map.png" alt="Map" className="w-full h-40 object-cover rounded-lg" />
+            <img src="https://framerusercontent.com/images/PUBoyXNPzyBAvmIqrRjBvVGFk.png" alt="Map" className="w-full h-40 object-cover rounded-lg" />
           </div>
         </div>
         
