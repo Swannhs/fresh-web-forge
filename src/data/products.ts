@@ -4,37 +4,54 @@ export interface Product {
   name: string;
   price: number;
   image: string;
-  description: string;
-  featured: boolean;
-  category: string;
+  featured?: boolean;
+  category?: string;
 }
 
 export const products: Product[] = [
   {
     id: 1,
-    name: "Headphones x-2BM",
-    price: 149.99,
-    image: "/products/headphones.png",
-    description: "Premium noise-canceling headphones for an immersive audio experience",
+    name: "Endless Display Pro",
+    price: 699.99,
+    image: "/products/display.png",
     featured: true,
-    category: "headphones"
+    category: "displays"
   },
   {
     id: 2,
-    name: "eWatch SF 4",
-    price: 349.99,
+    name: "SmartWatch Ultra",
+    price: 299.99,
     image: "/products/watch.png",
-    description: "Smart watch with advanced health monitoring and fitness tracking",
     featured: true,
     category: "watches"
   },
   {
     id: 3,
-    name: "eDisplay XR",
-    price: 649.99,
-    image: "/products/display.png",
-    description: "High-resolution display with brilliant colors and minimal bezels",
+    name: "Clear Sound Headphones",
+    price: 199.99,
+    image: "/products/headphones.png",
     featured: true,
+    category: "headphones"
+  },
+  {
+    id: 4,
+    name: "Crystal Display XG",
+    price: 499.99,
+    image: "/products/display.png",
     category: "displays"
+  },
+  {
+    id: 5,
+    name: "Fitness Watch Pro",
+    price: 249.99,
+    image: "/products/watch.png",
+    category: "watches"
+  },
+  {
+    id: 6,
+    name: "Ultra Bass Headphones",
+    price: 179.99,
+    image: "/products/headphones.png",
+    category: "headphones"
   }
 ];
